@@ -1,9 +1,9 @@
 import cv2
 
-state1 = cv2.imread("./state1.png")
-state2 = cv2.imread("./state2.png")
-state3 = cv2.imread("./state1.png")
-state4 = cv2.imread("./state2.png")
+state1 = cv2.imread("./state1.jpeg")
+state2 = cv2.imread("./state2.jpeg")
+state3 = cv2.imread("./state3.jpeg")
+state4 = cv2.imread("./state4.jpeg")
 
 states = [state1, state2, state3, state4]
 
