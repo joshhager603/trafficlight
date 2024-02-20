@@ -11,7 +11,7 @@ wait_times = [5000, 2000, 5000, 2000]
 
 for _ in range(10):
     for state, wait_time in zip(states, wait_times):
-        cv2.imshow('State', state)
+        cv2.imshow('Traffic Light', state)
         cv2.waitKey(wait_time)
 
 cv2.destroyAllWindows()
